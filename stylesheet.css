@@ -1,0 +1,62 @@
+body            {background-image: url(http://slodive.com/wp-content/uploads/2011/08/cool-desktop-backgrounds/waves.jpg);
+                background-size: cover;}
+h1              {color:grey;
+                font-family: "Times New Roman";
+                font-size: 40px;}
+p              {color: white;
+               font-style: italic;
+               font-size: 20px;}
+img            {width: 250px;
+               height: 250px;}
+.quotes       {background-color: black;
+               opacity: 0.5;
+               width: 80%;
+               height: 50%;
+               margin: 30px 20px 30px 40px;
+               padding: 20px 20px 20px 20px;
+               margin-bottom: 100px;
+               border-radius: 20px;
+               color: white;}
+.quote        {font-size: 25px;}
+.authors      {font-size: 18px;
+               font-style: italic;}
+.btn {
+  background: #1b7cbd;
+  background-image: -webkit-linear-gradient(top, #1b7cbd, #175175);
+  background-image: -moz-linear-gradient(top, #1b7cbd, #175175);
+  background-image: -ms-linear-gradient(top, #1b7cbd, #175175);
+  background-image: -o-linear-gradient(top, #1b7cbd, #175175);
+  background-image: linear-gradient(to bottom, #1b7cbd, #175175);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #f5f5f5;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+#twitter         {font-size: 20px;}
+#twitter > a     {background: #292f33;
+                  display: block;
+                  width:40px;
+                  height: 30px;
+                  margin: 20px;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  color: white;}
+#twitter > a:hover{
+                  background: #ccd6dd;
+}
+#twitter > a img  {width: 30px;
+                   height:30px}
