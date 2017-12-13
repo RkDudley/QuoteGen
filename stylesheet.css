@@ -1,12 +1,16 @@
 body            {background-image: url(http://slodive.com/wp-content/uploads/2011/08/cool-desktop-backgrounds/waves.jpg);
-                background-size: cover;}
+                background-size: cover;
+                background-position: center center;
+                background-repeat:  no-repeat;
+                background-attachment: fixed;
+                }
 h1              {color:grey;
                 font-family: "Times New Roman";
                 font-size: 40px;}
 p              {color: white;
                font-style: italic;
                font-size: 20px;}
-img            {width: 250px;
+.water         {width: 250px;
                height: 250px;}
 .quotes       {background-color: black;
                opacity: 0.5;
